@@ -27,7 +27,7 @@ $(function() {
         const tl1 = gsap.timeline({id:'tl1'});
 
 
-        tl1.to (content,{autoAlpha: 1, duration: 10});
+        tl1.to (content,{autoAlpha: 1, duration: 0.3});
 
 
         tl1.fromTo(mySvg, {autoAlpha: 0}, {autoAlpha: 1, duration: 0.3}, '-=0.3');
