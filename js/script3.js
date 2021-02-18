@@ -1,5 +1,5 @@
 $(function() {
-    gsap.registerPlugin('GSDevTools');
+    // gsap.registerPlugin('GSDevTools');
     let ellipse = [$('ellipse')];
     // console.log(ellipse);
     let myBody = $('body');
@@ -60,7 +60,7 @@ $(function() {
         });
        
     } 
-    GSDevTools.create({id:'tl1'});
+    // GSDevTools.create({id:'tl1'});
     //------Global Timeline added to bottom of HTML for viewing a timeline for animations.
 });
   
