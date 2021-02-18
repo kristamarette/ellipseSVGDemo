@@ -9,13 +9,15 @@ $(function() {
     let mySvg = $('svg');
     // console.log(mySvg);
     let heading = $('h1');
-    
+    // console.log('ouch');
+   
     window.addEventListener('load', function(event) { 
+       
         // $("#div1").css({'background-color': '#000'});
         
         event.preventDefault();
         pageLoad();
-        console.log('ouch');
+        // console.log('ouch');
     })
     
     // window.addEventListener('load', function(event) { 
