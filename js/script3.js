@@ -1,5 +1,6 @@
 $(function() {
-    // gsap.registerPlugin('GSDevTools');
+    gsap.registerPlugin('GSDevTools');
+    
     let ellipse = [$('ellipse')];
     // console.log(ellipse);
     let myBody = $('body');
@@ -13,11 +14,11 @@ $(function() {
    
     window.addEventListener('load', function(event) { 
        
-        // $("#div1").css({'background-color': '#000'});
+        $("#div1").css({'background-color': '#000'});
         
         event.preventDefault();
         pageLoad();
-        // console.log('ouch');
+        console.log('ouch');
     })
     
     // window.addEventListener('load', function(event) { 
@@ -27,7 +28,7 @@ $(function() {
 
     function pageLoad() {
         const tl1 = gsap.timeline({id:'tl1'});
-
+        GSDevTools.create({id:'tl1'});
 
         tl1.to (content,{autoAlpha: 1, duration: 0.3});
 
@@ -62,7 +63,7 @@ $(function() {
         });
        
     } 
-    // GSDevTools.create({id:'tl1'});
+
     //------Global Timeline added to bottom of HTML for viewing a timeline for animations.
 });
   
