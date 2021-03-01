@@ -18,7 +18,7 @@ $(function() {
         
         event.preventDefault();
         pageLoad();
-        console.log('ouch');
+        // console.log('ouch');
     })
     
     // window.addEventListener('load', function(event) { 
